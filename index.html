@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </head>
+  
+  <title>Dijkstra Algorithm Project</title>
+  <body>
+
+
+<!-- Modal -->
+<div class="modal fade" id="tutorialModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="tutorialModalLabel" >Tutorial</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="tutorialInfo" >
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info" id="skipBtn" data-bs-dismiss="modal">Skip</button>
+        <button type="button" id="tutNext" class="btn btn-primary">Next</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <!-- Brand -->
+    <div class="navbar-brand mx-auto">Dijkstra Shortest Path Algorithm Visualization</div>
+  </nav>
+  <div class="row justify-content-center">
+    <a class="btn btn-warning btn-lg" role="button" aria-pressed="true">Find <i class="fas fa-bullseye"></i></a>
+    <a class="btn btn-info btn-lg" role="button" aria-pressed="true">Clear Grid</a>
+  </div>
+  <table id ="grid-box">  
+  </table>
+
+
+  <script type="text/javascript" src="js/node.js"></script>
+  <script type="text/javascript" src="js/grid.js"></script>
+  <script type="text/javascript" src="js/dijkstra.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+
+</html>

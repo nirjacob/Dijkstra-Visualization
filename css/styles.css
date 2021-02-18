@@ -1,0 +1,164 @@
+.modal-content {
+  margin: 0.5rem -6.9rem;
+
+  width: 40em;
+}
+.modal-body {
+  height: 30em;
+}
+.covid {
+  width: 90%;
+  height: 90%;
+  margin: -10% 5%;
+}
+.tutorialP1img {
+  margin: -15% 0px;
+}
+.tutorialPage5 {
+  text-align: center;
+}
+.tutorialPage1p {
+  text-align: center;
+}
+.tutorialPage1 {
+  text-align: center;
+}
+
+.tutorialPage1 {
+  text-align: center;
+}
+.btn-lg {
+  margin: initial;
+  margin: 0.4% 15%;
+
+  width: 15%;
+}
+​ body {
+  background: #ffffff;
+}
+
+table {
+  margin: auto;
+}
+.nav-item {
+  margin: auto;
+}
+.node:hover {
+  background-color: #1e2431;
+}
+.startNode:hover {
+  background-color: #ffffff;
+  animation-duration: 0s;
+}
+.endNode:hover {
+  background-color: #ffffff;
+  animation-duration: 0s;
+}
+.node {
+  border: 1px solid rgba(0, 190, 218, 0.75);
+  box-sizing: border-box;
+  display: -moz-grid;
+  vertical-align: top;
+}
+
+.startNode {
+  background-image: url(../images/startNode.png), none;
+  background-size: cover;
+  animation-name: wall;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+}
+
+.endNode {
+  background-size: cover;
+  background-image: url(../images/endNode.png);
+  animation-name: wall;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+}
+
+.nodeWall {
+  background-color: #1e2431;
+  animation-name: wall;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+}
+.node-check {
+  background-color: rgba(0, 190, 218, 0.75);
+  border: 1px solid rgba(207, 221, 239, 0.65);
+  animation: check 1s ease-in-out 0s, pulse 1s ease-in-out 14s 3;
+}
+@keyframes check {
+  0% {
+    transform: scale(0.3) rotate(30);
+    background-color: rgba(17, 104, 217, 0.75);
+    opacity: 0.75;
+  }
+
+  25% {
+    transform: rotate(60);
+    opacity: 0.9;
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2) rotate(180);
+    background-color: rgba(0, 190, 218, 0.75);
+    transform: rotate(90);
+  }
+
+  75% {
+    background-color: rgba(17, 104, 217, 0.75);
+  }
+
+  100% {
+    transform: scale(1) rotate(360);
+
+    background-color: rgba(0, 190, 218, 0.75);
+  }
+}
+
+.node-backtrack {
+  animation-name: backtrack;
+  border: 1px solid rgba(207, 221, 239, 0.65);
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes backtrack {
+  0% {
+    background-color: rgb(166, 243, 255);
+  }
+
+  75% {
+    background-color: rgba(17, 104, 217, 0.75);
+  }
+  100% {
+    background-color: rgba(0, 190, 218, 0.75);
+  }
+}
+
+.node-path {
+  background-color: #ffd400;
+  animation: wall 0.3s ease-in-out 0s, path-pulse 1s ease-in-out 10s 10;
+}
+@keyframes path-pulse {
+  0% {
+    background-color: #ffd400;
+  }
+  50% {
+    background-color: #eba400;
+  }
+  100% {
+    background-color: #ffd400;
+  }
+}
+
+@keyframes wall {
+  from {
+    transform: scale(0.3);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
