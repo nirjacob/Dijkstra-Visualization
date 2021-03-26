@@ -8,5 +8,5 @@
 - ### :globe_with_meridians: Technicals
   - Written in Javascript, Css, Html, using github and my website as a host
   
-### :desktop_computer:	 App GUI
+- ### :desktop_computer:	 App GUI
 ![😄:](https://github.com/nirjacob/Dijkstra-visualization/blob/main/images/project1.gif)
