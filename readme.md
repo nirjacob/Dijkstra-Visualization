@@ -1,4 +1,4 @@
-<a href="https://nirjacob.github.io/Dijkstra-visualization/" target='_blank' > <h1> :joystick: Try Here </h1></a>
+<a href="https://www.nirjacob.com/Dijkstra-visualization/index.html" target='_blank' > <h1> :joystick: Try Here </h1></a>
 <br>
 # Welcome to my pathfinding visualizer project!
 
